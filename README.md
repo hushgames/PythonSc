@@ -1,5 +1,4 @@
-# PythonSc
-# Simpletron Shit
+# PythonSchool Simpletron Shit
 
 ## Operation Code Meaning
 
@@ -22,7 +21,7 @@ Load/Store Operations
 
 ## Arithmetic Operations
 
-## Operand comes from memory
+Operand comes from memory
 ```bash
 - AddM 	= 30		- Add a word from a specific location in memory to the word in the accumulator (leave the result in the accumulator)
 
@@ -35,7 +34,7 @@ Load/Store Operations
 - MulM  = 34		- Multiply a word from a specific location in memory to the word in the accumulator (leave the result in the accumulator)
 ```
 
-## Operand is immediate
+Operand is immediate
 ```bash
 - AddI  = 35		- Add the immediate operand represented by the next 2 digits to the word in the accumulator (leave the result in the accumulator)
 
@@ -47,7 +46,7 @@ Load/Store Operations
 
 - MulI  = 39		- Multiply the immediate operand represented by the next 2 digits to the word in the accumulator (leave the result in the accumulator)
 ```
-## Transfer of Control Operations
+Transfer of Control Operations
 ```bash
 - JMP  = 40		- Jump to a specific location in memory
 
@@ -57,3 +56,5 @@ Load/Store Operations
 
 - HALT = 43		- Halt - this program has completed its task
 ```
+
+
